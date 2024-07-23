@@ -1,0 +1,538 @@
+/* screen - homepage */
+
+:root {
+  --black: #000000;
+  --chardonnay: #fdd08d;
+  --light-yellow: #f4f5b9;
+  --green: #98FB98; /* New Green */
+  --purple: #9370DB; /* New Purple */
+  --white: #ffffff;
+  --font-size-l: 36px;
+  --font-size-m: 32px;
+  --font-size-s: 29px;
+  --font-size-xl: 44px;
+  --font-size-xs: 17px;
+  --font-family-diplomata: "Diplomata", Helvetica;
+  --font-family-ewert: "Ewert", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+}
+
+.homepage {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 71.11vw;
+  min-width: 100.0vw;
+  overflow-x: hidden;
+}
+
+.homepage .overlap-group6 {
+  height: 345.21vw;
+  position: relative;
+  width: 100.14vw;
+}
+
+.homepage .background-box {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 345.21vw;
+  position: absolute;
+  top: 0;
+  width: 100.0vw;
+}
+
+.homepage .background-1 {
+  background-color: var(--light-yellow);
+  height: 71.11vw;
+  width: 100.0vw;
+}
+
+.homepage .background {
+  background-color: var(--chardonnay);
+  height: 54.86vw;
+  width: 100.0vw;
+}
+
+.homepage .background-3 {
+  background-color: var(--light-yellow);
+  height: 54.86vw;
+  width: 100.0vw;
+}
+
+.homepage .background-5 {
+  background-color: var(--light-yellow);
+  height: 54.86vw;
+  width: 100.0vw;
+}
+
+.homepage .background-6 {
+  background-color: var(--chardonnay);
+  height: 54.65vw;
+  width: 100.0vw;
+}
+
+.homepage .overlap-group {
+  height: 53.26vw;
+  left: 17.5vw;
+  position: absolute;
+  top: 291.94vw;
+  width: 66.88vw;
+}
+
+.homepage .body-border-6 {
+  height: 40.69vw;
+  top: 12.57vw;
+  width: 66.88vw;
+}
+
+.homepage .uiux-text {
+  left: 8.06vw;
+  line-height: 2.7vw;
+  top: 22.64vw;
+  width: 51.25vw;
+}
+
+.homepage .header-border-6 {
+  height: 14.93vw;
+  left: 23.33vw;
+  width: 20.62vw;
+}
+
+.homepage .uiux {
+  left: 24.31vw;
+  line-height: 3.8vw;
+  top: 4.51vw;
+  white-space: nowrap;
+  width: 18.33vw;
+}
+
+.homepage .overlap-group1 {
+  height: 51.81vw;
+  left: 20.28vw;
+  position: absolute;
+  top: 238.75vw;
+  width: 61.39vw;
+}
+
+.homepage .body-border-5 {
+  height: 40.83vw;
+  top: 10.97vw;
+  width: 61.39vw;
+}
+
+.homepage .header-border-5 {
+  height: 13.75vw;
+  left: 20.83vw;
+  width: 18.96vw;
+}
+
+.homepage .games-text {
+  left: 7.36vw;
+  line-height: 2.7vw;
+  top: 20.28vw;
+  width: 47.01vw;
+}
+
+.homepage .games {
+  left: 21.94vw;
+  line-height: 3.8vw;
+  top: 4.24vw;
+  white-space: nowrap;
+  width: 16.81vw;
+}
+
+.homepage .overlap-group2 {
+  height: 53.19vw;
+  left: 18.89vw;
+  position: absolute;
+  top: 182.5vw;
+  width: 63.26vw;
+}
+
+.homepage .body-border-4 {
+  height: 42.08vw;
+  top: 11.11vw;
+  width: 63.26vw;
+}
+
+.homepage .header-border-4 {
+  height: 14.24vw;
+  left: 21.25vw;
+  width: 19.51vw;
+}
+
+.homepage .music-text {
+  left: 7.64vw;
+  line-height: 2.7vw;
+  top: 21.53vw;
+  width: 48.47vw;
+}
+
+.homepage .music {
+  left: 22.36vw;
+  line-height: 3.8vw;
+  top: 4.31vw;
+  white-space: nowrap;
+  width: 17.36vw;
+}
+
+.homepage .overlap-group3 {
+  height: 56.18vw;
+  left: 17.5vw;
+  position: absolute;
+  top: 127.64vw;
+  width: 66.88vw;
+}
+
+.homepage .body-border-3 {
+  height: 44.44vw;
+  top: 11.74vw;
+  width: 66.88vw;
+}
+
+.homepage .header-border-3 {
+  height: 15.0vw;
+  left: 22.71vw;
+  width: 20.62vw;
+}
+
+.homepage .fitness-text {
+  left: 8.47vw;
+  line-height: 2.7vw;
+  top: 24.58vw;
+  width: 51.25vw;
+}
+
+.homepage .fitness {
+  left: 23.89vw;
+  line-height: 3.8vw;
+  top: 4.58vw;
+  white-space: nowrap;
+  width: 18.33vw;
+}
+
+.homepage .overlap-group4 {
+  height: 53.26vw;
+  left: 18.12vw;
+  position: absolute;
+  top: 72.64vw;
+  width: 66.88vw;
+}
+
+.homepage .movies {
+  left: 23.26vw;
+  line-height: 3.8vw;
+  top: 4.58vw;
+  white-space: nowrap;
+  width: 18.33vw;
+}
+
+.homepage .body-border-2 {
+  height: 38.61vw;
+  top: 14.65vw;
+  width: 66.88vw;
+}
+
+.homepage .movies-text {
+  left: 7.85vw;
+  line-height: 2.7vw;
+  top: 21.39vw;
+  width: 51.25vw;
+}
+
+.homepage .header-border-2 {
+  height: 15.0vw;
+  left: 22.08vw;
+  width: 20.62vw;
+}
+
+.homepage .deco-art {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  left: 5.07vw;
+  min-height: 235.28vw;
+  position: absolute;
+  top: 72.15vw;
+  width: 91.88vw;
+}
+
+.homepage .dual-pistol-1 {
+  height: 14.03vw;
+  margin-right: 1.88vw;
+  object-fit: cover;
+  width: 13.61vw;
+}
+
+.homepage .wagon-1 {
+  margin-left: 2.43vw;
+  margin-top: 76.04vw;
+}
+
+.homepage .dual-pistol-2 {
+  height: 14.24vw;
+  margin-top: 10.83vw;
+  object-fit: cover;
+  width: 13.82vw;
+}
+
+.homepage .wagon-2 {
+  margin-top: 80.76vw;
+}
+
+.homepage .dual-pistol-3 {
+  height: 14.24vw;
+  margin-top: 8.75vw;
+  object-fit: cover;
+  width: 13.82vw;
+}
+
+.homepage .group-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 69.93vw;
+  position: absolute;
+  top: 0;
+  width: 100.14vw;
+}
+
+.homepage .overlap-group5 {
+  height: 17.36vw;
+  margin-right: 0.14vw;
+  position: relative;
+  width: 100.0vw;
+}
+
+.homepage .nav-bar {
+  align-items: flex-start;
+  display: flex;
+  gap: 6.39vw;
+  height: 10.21vw;
+  justify-content: flex-end;
+  left: 7.5vw;
+  min-width: 92.5vw;
+  padding: 0.56vw 3.54vw;
+  position: absolute;
+  top: 7.15vw;
+}
+
+.homepage .x-nav-box {
+  align-items: flex-start;
+  display: flex;
+  min-width: 11.94vw;
+}
+
+.homepage .nav-container {
+  height: 9.03vw;
+  position: relative;
+  width: 11.81vw;
+}
+
+.homepage .nav-b {
+  cursor: pointer;
+  height: 9.03vw;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 11.81vw;
+}
+
+.homepage .nav-text {
+  left: 1.6vw;
+  letter-spacing: 0;
+  line-height: 1.44vw;
+  position: absolute;
+  text-align: center;
+  top: 4.51vw;
+  width: 8.61vw;
+}
+
+.homepage .fitness-nav-box {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  min-width: 11.94vw;
+}
+
+.homepage .overlap-group1-1 {
+  align-items: flex-end;
+  background-image: url(../img/nav-box-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 9.03vw;
+  min-width: 11.81vw;
+  padding: 2.64vw 1.6vw;
+}
+
+.homepage .nav-text-2 {
+  letter-spacing: 0;
+  line-height: 1.44vw;
+  min-height: 1.88vw;
+  text-align: center;
+  width: 8.61vw;
+}
+
+.homepage .rectangle-2 {
+  background-color: var(--chardonnay);
+  height: 8.54vw;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100.0vw;
+}
+
+.homepage .title {
+  color: var(--black);
+  font-family: var(--font-family-diplomata);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  left: 39.79vw;
+  letter-spacing: -0.18vw;
+  line-height: 2.45vw;
+  position: absolute;
+  text-align: center;
+  top: 2.01vw;
+  width: 19.93vw;
+}
+
+.homepage .flex-row {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 2.5vw;
+  margin-top: 1.67vw;
+  min-width: 83.61vw;
+}
+
+.homepage .overlap-group1-2 {
+  height: 26.6vw;
+  margin-left: 6.04vw;
+  position: relative;
+  width: 19.79vw;
+}
+
+.homepage .homepage-profile-pic {
+  height: 16.04vw;
+  left: 2.5vw;
+  object-fit: cover;
+  position: absolute;
+  top: 3.06vw;
+  width: 14.58vw;
+}
+
+.homepage .header-border-1 {
+  height: 26.6vw;
+  left: 0;
+  width: 19.79vw;
+}
+
+.homepage .dead-or-dead {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  left: 5.28vw;
+  letter-spacing: -0.18vw;
+  line-height: 3.03vw;
+  position: absolute;
+  text-align: center;
+  top: 18.06vw;
+  transform: rotate(-3.64deg);
+  width: 9.24vw;
+}
+
+.homepage .black-horse-right {
+  margin-left: 6.81vw;
+}
+
+.homepage .overlap-group-1 {
+  align-items: flex-start;
+  background-image: url(../img/body-border-1-1.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 23.75vw;
+  margin-left: 5.9vw;
+  margin-top: 0.62vw;
+  min-width: 71.88vw;
+  padding: 2.0vw 5.76vw;
+}
+
+.homepage .intro-text {
+  letter-spacing: 0;
+  line-height: 3.8vw;
+  min-height: 19.58vw;
+  text-align: center;
+  width: 60.28vw;
+}
+
+.homepage .black-horse {
+  height: 22.08vw;
+  object-fit: cover;
+  width: 25.49vw;
+}
+
+.homepage .body-border {
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+}
+
+.homepage .fitness-1 {
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.homepage .games-1 {
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.homepage .header-border {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+.homepage .movies-1 {
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.homepage .music-1 {
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.homepage .uiux-1 {
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.homepage .wagon {
+  align-self: flex-start;
+  height: 8.19vw;
+  object-fit: cover;
+  width: 8.82vw;
+}
+
+.theme-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: var(--chardonnay);
+  border: none;
+  cursor: pointer;
+  z-index: 1000; /* Ensure the button is on top of other elements */
+}

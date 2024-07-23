@@ -1,0 +1,80 @@
+/* screen - splash-screen */
+
+.splash-screen {
+  align-items: center;
+  background-color: #f4f5b9;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.65vw 5.18vw;
+  height: 63.17vw;
+  justify-content: center;
+  padding: 10.92vw 14.13vw;
+  position: relative;
+}
+
+.splash-screen .revolver-pistol-clip {
+  height: 17.4vw;
+  object-fit: cover;
+  position: relative;
+  width: 13.08vw;
+}
+
+.splash-screen .profile-pic {
+  height: 21.96vw;
+  position: relative;
+  width: 22.83vw;
+}
+
+.splash-screen .howdy-enter {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.79vw;
+  justify-content: center;
+  position: relative;
+  width: 16.66vw;
+}
+
+.splash-screen .title {
+  align-self: stretch;
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  height: 7.03vw;
+  letter-spacing: 0;
+  line-height: 6.2vw;
+  margin-top: -0.06vw;
+  position: relative;
+  white-space: nowrap;
+}
+
+.splash-screen .button {
+  cursor: pointer;
+  height: 4.5vw;
+  position: relative;
+  width: 12.28vw;
+}
+
+.splash-screen .overlap-group {
+  align-items: flex-start;
+  background-color: #fdd08d;
+  border-radius: 3.7vw;
+  display: flex;
+  height: 4.5vw;
+  min-width: 12.15vw;
+  padding: 0.74vw 2.34vw;
+}
+
+.splash-screen .place {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 2.69vw;
+  min-height: 2.1vw;
+  text-align: center;
+  white-space: nowrap;
+  width: 7.46vw;
+}
